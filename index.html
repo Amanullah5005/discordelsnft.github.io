@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="/CSS/style.css" />
 
     <!-- Scripts: -->
-    <script src="/JS/code.js"></script>
+    <!-- Include the Discord API client for JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/discord.js@14.7.1"></script>
+
+    <script src="/JS/Code.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,17 +19,79 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="apple-touch-icon" sizes="57x57" href="/Graphics/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/Graphics/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/Graphics/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/Graphics/apple-icon-114x114.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/Graphics/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/Graphics/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/Graphics/favicon-16x16.png">
-<link rel="manifest" href="/Graphics/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/Graphics/Fav/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/Graphics/Fav/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/Graphics/Fav/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/Graphics/Fav/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/Graphics/Fav/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/Graphics/Fav/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/Graphics/Fav/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/Graphics/Fav/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/Graphics/Fav/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/Graphics/Fav/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/Graphics/Fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/Graphics/Fav/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/Graphics/Fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/Graphics/Fav/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
     <meta name="msapplication-TileColor" content="#ffc40d" />
     <meta name="theme-color" content="#ffdf00" />
   </head>
@@ -35,15 +100,15 @@
     <!-- Navigation bar -->
     <header class="row container">
       <a href="#" class="logo">
-        <img src="/Graphics/rainbow .png" alt="" />
+        <img src="/Graphics/IMGs//SP/rainbow mouth-01.png" alt="" />
       </a>
       <div class="toggleMenu" onclick="toggleMenu();"></div>
       <nav class="navigation row">
         <ul class="row">
           <li><a href="#" target="_blank">Home</a></li>
-          <li><a href="/Html/Roadmap.html" target="_blank">Road-Map</a></li>
+          <li><a href="/HTML/Road-map.html" target="_blank">Road-Map</a></li>
           <li>
-            <a href="/Html/Coming-soon.html" target="_blank">Whitepaper</a>
+            <a href="/HTML/Coming-soon.html" target="_blank">Whitepaper</a>
           </li>
           <li>
             <a href="https://discord.gg/eSmntTV39W" target="_blank"
@@ -61,7 +126,7 @@
       <div class="container card-img">
         <img
           id="main-card"
-          src="/Graphics/rainbow .png"
+          src="/Graphics/IMGs/SP/rainbow mouth-01.png"
           alt=""
         />
       </div>
@@ -95,14 +160,16 @@
           ><img src="/Graphics/medium.jpg" alt="Medium"
         /></a>
         <a href="https://discord.gg/5buzKnEeK7" target="_blank"
-          ><img src="/Graphics/discord-logo-3d-social-media-icon-isolated_47987-11941.jpg" alt="Discord"
+          ><img
+            src="/Graphics/discord-logo-3d-social-media-icon-isolated_47987-11941.jpg"
+            alt="Discord"
         /></a>
         <a href="https://crew3.xyz/c/discordelsonsui/questboard" target="_blank"
           ><img src="/Graphics/crew3.jpg" alt="Crew3"
         /></a>
         <a href="/HTML/Road-map.html" target="_blank"
-        ><img src="/Graphics/roadmap.jpg" alt="Roadmap"
-      /></a>
+          ><img src="/Graphics/roadmap.jpg" alt="Roadmap"
+        /></a>
         <a href="/HTML/Coming-soon.html" target="_blank"
           ><img src="/Graphics/insta.jpg" alt="Instagram"
         /></a>
@@ -151,7 +218,7 @@
           </a>
         </div>
         <div class="release-img row img1" id="release-img1">
-          <img src="/Graphics/Sui gangster.jpg" alt="NFT" />
+          <img src="/Graphics/IMGs/SP/Sui gangster-01-01.png" alt="NFT" />
           <!-- <div class="card-left">
             <h6>Discord Series</h6>
             <h5>Purple Man</h5>
@@ -163,7 +230,7 @@
         <div class="release-c row">
           <div class="card">
             <div class="card-img img1">
-              <img src="/Graphics/2.png" alt="" />
+              <img src="/Graphics/IMGs/SP/2.png" alt="" />
             </div>
             <div class="card-content row">
               <div class="card-left">
@@ -194,7 +261,7 @@
             Passes, So try to occupy one to get Free Doodling Discordle.
           </p>
           <a
-            href="/Html/Coming-soon.html"
+            href="/HTML/Coming-soon.html"
             target="_blank"
             class="release-btn row"
           >
@@ -218,7 +285,7 @@
     <!-- Launch -->
     <section class="launch row container">
       <div class="container card-img">
-        <img id="main-card2" src="/Graphics/5.png" alt="" />
+        <img id="main-card2" src="/Graphics/IMGs/SP/5.png" alt="" />
       </div>
       <div id="launch-text">
         <h6>launching Soon</h6>
@@ -245,7 +312,7 @@
       <div class="team-member-card">
         <div class="team-pfp">
           <img
-            src="/Graphics/processing-01.png"
+            src="/Graphics/IMGs/processing-01.png"
             alt="Profile picture of team member"
           />
         </div>
@@ -280,7 +347,7 @@
       <div class="team-member-card">
         <div class="team-pfp">
           <img
-            src="/Graphics/Fire Head.png"
+            src="/Graphics/IMGs/SP/Fire Head.png"
             alt="Profile picture of team member"
           />
         </div>
@@ -310,6 +377,101 @@
           </div>
         </div>
       </div>
+      <div class="team-member-card">
+        <div class="team-pfp">
+          <img
+            src="/Graphics/IMGs/SP/ETH Speacial with shall wearing-01.png"
+            alt="Profile picture of team member"
+          />
+        </div>
+        <div class="member-info">
+          <div>
+            <h3>Matty</h3>
+            <p>Mod and Advisor</p>
+            <p>
+              "Matty brings a wealth of expertise to our community as a
+              dedicated moderator and trusted advisor with a passion for crypto
+              and the Sui blockchain. With his deep understanding of the
+              industry, he will help us navigate the latest trends and best
+              practices, while ensuring that our Discord community remains a
+              safe and engaging space for all members. We are thrilled to have
+              Matty on board and look forward to his valuable contributions to
+              our mission of building a thriving crypto community."
+            </p>
+            <p><b>Discord : </b> jMmAtT | PH#6628</p>
+          </div>
+          <div class="team-links">
+            <a
+              href="https://twitter.com/MattySUI"
+              target="_blank"
+              class="release-btn row"
+            >
+              Check Twitter
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="team-member-card">
+        <div class="team-pfp">
+          <img
+            src="/Graphics/IMGs/SP/Sui gangster-01-01.png"
+            alt="Profile picture of team member"
+          />
+        </div>
+        <div class="member-info">
+          <div>
+            <h3>Assassin</h3>
+            <p>Backend Developer</p>
+            <p>
+              "Our backend developer and game development expert, known as Assassin, is a crucial part of our team, having already built several successful games in the web3 space. With his deep understanding of blockchain technology and expertise in backend development, he will help us create robust and scalable systems that power our games and enable our community to have a seamless and enjoyable experience. We are excited to have Assassin on board and look forward to his contributions in taking our gaming ecosystem to new heights."
+            </p>
+            <p><b>Discord : </b> ASSASSIN#6084</p>
+          </div>
+          <div class="team-links">
+            <a
+              href="https://twitter.com/AlexSakai6"
+              target="_blank"
+              class="release-btn row"
+            >
+              Check Twitter
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="team-member-card">
+        <div class="team-pfp">
+          <img
+            src="/Graphics/IMGs/SP/sui whale-01-01.png"
+            alt="Profile picture of team member"
+          />
+        </div>
+        <div class="member-info">
+          <div>
+            <h3>Bang Jacky</h3>
+            <p>Developer And Mod</p>
+            <p>
+              "Bang Jacky's extensive experience in online community management
+              and front-end development make him a valuable addition to our
+              team. As a moderator, he will help us maintain a welcoming and
+              safe environment on our Discord server, while his skills as a
+              front-end developer will enable us to create a visually stunning
+              user interface. We are excited to have Bang Jacky on board and
+              can't wait to see the positive impact he will have on our
+              community."
+            </p>
+            <p><b>Discord : </b> BANG_JACKY #2064</p>
+          </div>
+          <div class="team-links">
+            <a
+              href="https://twitter.com/WorldAirdrop_"
+              target="_blank"
+              class="release-btn row"
+            >
+              Check Twitter
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- End team section  -->
 
@@ -322,42 +484,42 @@
         <div class="imgs">
           <img
             class="nft-img"
-            src="/Graphics/1-01.png"
+            src="/Graphics/IMGs/SP/1-01.png"
             alt="NFT Image"
           />
         </div>
         <div class="imgs">
-          <img class="nft-img" src="/Graphics/2.png" alt="NFT Image" />
+          <img class="nft-img" src="/Graphics/IMGs/SP/2.png" alt="NFT Image" />
         </div>
         <div class="imgs">
           <img
             class="nft-img"
-            src="/Graphics/Fire Head.png"
-            alt="NFT Image"
-          />
-        </div>
-        <div class="imgs">
-          <img
-            class="nft-img"
-            src="/Graphics/rainbow .png"
+            src="/Graphics/IMGs/SP/Fire Head.png"
             alt="NFT Image"
           />
         </div>
         <div class="imgs">
           <img
             class="nft-img"
-            src="/Graphics/Sui pad-01-01.png"
+            src="/Graphics/IMGs/SP/rainbow mouth-01.png"
             alt="NFT Image"
           />
         </div>
         <div class="imgs">
-          <img class="nft-img" src="/Graphics/5.png" alt="NFT Image" />
+          <img
+            class="nft-img"
+            src="/Graphics/IMGs/SP/Sui pad-01-01.png"
+            alt="NFT Image"
+          />
         </div>
         <div class="imgs">
-          <img class="nft-img" src="/Graphics/4.png" alt="NFT Image" />
+          <img class="nft-img" src="/Graphics/IMGs/SP/5.png" alt="NFT Image" />
         </div>
         <div class="imgs">
-          <img class="nft-img" src="/Graphics/3.png" alt="NFT Image" />
+          <img class="nft-img" src="/Graphics/IMGs/SP/4.png" alt="NFT Image" />
+        </div>
+        <div class="imgs">
+          <img class="nft-img" src="/Graphics/IMGs/SP/3.png" alt="NFT Image" />
         </div>
       </div>
       <!-- Add a heading for the NFT name -->
@@ -369,7 +531,7 @@
       <div class="footer row">
         <div class="footer-content">
           <a href="a" class="logo" target="_blank">
-            <img src="/Graphics//rainbow .png" alt="CH" />
+            <img src="/Graphics/IMGs//SP/rainbow mouth-01.png" alt="CH" />
           </a>
           <p>Discordels Team</p>
           <div class="social-links row">
@@ -437,7 +599,7 @@
             <h3>About</h3>
             <ul>
               <li>
-                <a href="/Html/Roadmap.html" target="_blank">Road-Map</a>
+                <a href="/HTML/Road-map.html" target="_blank">Road-Map</a>
               </li>
               <li>
                 <a href="https://discordels.medium.com/" target="_blank"
@@ -455,12 +617,12 @@
             <h3>NFT</h3>
             <ul>
               <li>
-                <a href="/Html/Coming-soon.html" target="_blank">OpenSea</a>
+                <a href="/HTML/Coming-soon.html" target="_blank">OpenSea</a>
               </li>
               <li>
                 <a href="#" target="_blank">Sneak-Peaks</a>
               </li>
-              <li><a href="/Html/Coming-soon.html" target="_blank">Mint</a></li>
+              <li><a href="/HTML/Coming-soon.html" target="_blank">Mint</a></li>
             </ul>
           </div>
           <div>

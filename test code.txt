@@ -1,0 +1,5 @@
+client id:  1055909953136775201
+client secret:  8gyB35JwhRc8d-abO0jLRVIuW3SNvzwd
+bot token:  MTA1NTkwOTk1MzEzNjc3NTIwMQ.GGTsFm.AX4CapqGCBJumtrIRdKI1LHH9lYGfYx6jqz7GY
+server id:  989853972904947712
+redirect url: my redirect url
