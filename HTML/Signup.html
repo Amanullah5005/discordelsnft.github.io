@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="/CSS/Gloabal.css" />
+    <link rel="stylesheet" href="/CSS/signup.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+
+    <!-- Scripts: -->
+    <!-- Include the Discord API client for JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/discord.js@14.7.1"></script>
+    <script src="/JS/Code.js"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <!-- navbar start -->
+    <header class="row container">
+      <a href="#" class="logo">
+        <img src="/Graphics/logo/yellow.jpg" alt="" />
+      </a>
+      <div class="toggleMenu" onclick="toggleMenu();"></div>
+      <nav class="navigation row">
+        <ul class="row">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Mint.html">Mint</a></li>
+          <li><a href="Signup.html">Sign Up</a></li>
+          <li class="darkLight" onclick="darklight();"></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- navbar start -->
+
+    <!-- Sign-Up start  -->
+    <section class="signup-main">
+      <div class="row container">
+        <div class="signup-secondary">
+          <div class="sign-up3" id="logo-dis">
+            <a href="https://discord.gg/cQjx8Pm6c5" id="dis-logo">
+              <img
+                src="/Graphics/discord-logo-3d-social-media-icon-isolated_47987-11941.jpg"
+                alt="discord"
+              />
+            </a>
+          </div>
+          <div class="signup3">
+            <a
+              href="https://discord.com/api/oauth2/authorize?client_id=1055909953136775201&redirect_uri=http%3A%2F%2F127.0.0.1%3A5500%2FHTML%2FIndex.html&response_type=code&scope=guilds.members.read%20identify"
+            >
+              Sign-Up Via Discord</a
+            >
+          </div>
+          <div class="signup3">
+            <a href="Index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="15"
+                class="ionicon"
+                viewBox="0 0 512 512"
+              >
+                <title>Arrow Back</title>
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="48"
+                  d="M244 400L100 256l144-144M120 256h292"
+                />
+              </svg>
+              Go Back</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Script tags start -->
+  </body>
+</html>
