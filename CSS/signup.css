@@ -1,0 +1,76 @@
+@import url(Gloabal.css);
+@import url(/JS/Code.js);
+@import url(Nav.css);
+
+
+
+
+
+
+
+
+
+/* Signup Whole page start  */
+.signup-main{
+display: block;
+}
+.signup-main::before {
+  background-color: blueviolet;
+}
+.signup-secondary {
+  display: block;
+  max-width: 90vw;
+  box-shadow: 10px 10px 40px var(--cl-8--);
+  align-items: center;
+  justify-content: center;
+  padding: 50px 80px;
+  margin: auto;
+  
+  background-color: var(--cl-4--);
+  border-radius: 30px;
+}
+.signup-secondary div a {
+  align-items: center;
+  justify-content: center;
+  margin: auto 2px;
+}
+.signup3 {
+  align-items: center;
+  justify-content: center;
+  padding: 0.7em 2em;
+  margin: 1em;
+  border-radius: 15px;
+  border: 2px solid var(--cl-6--);
+  /* background-color: rgb(196, 115, 10); */
+}
+#logo-dis  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+#dis-logo img {
+  min-height: 30px;
+  max-height: 90px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px var(--cl-8--);
+  
+}
+
+.signup3 svg {
+  size: 20px;
+}
+
+/* Signup Whole page END  */
+@media screen and (max-width: 500px){
+  .signup-main{
+    font-size: small;
+    font-weight: 400;
+  }
+  #dis-logo img {
+   max-height: 70px;
+    
+  }
+}
+
+

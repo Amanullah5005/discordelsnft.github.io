@@ -184,7 +184,7 @@ nav a:hover {
 /* Hero Section End */
 
 /* free section start  */
-/* .free {
+.free {
   position: relative;
   align-items: center;
   background-image: url(/Graphics/1.jpg);
@@ -206,10 +206,10 @@ nav a:hover {
 .free-content h3 {
   font-weight: 500;
   font-size: clamp(30px, 5vw, 40px);
-  /* font-kerning: 1px; 
+  /* font-kerning: 1px; */
   color: var(--cl-3--);
   padding: 1em 0;
-} */
+}
 
 .free-content p {
   font-size: 20px;

@@ -1,0 +1,110 @@
+
+/* Navigation Bar  */
+/*#navigation {
+  width: 100vw;
+}
+header {
+  align-items: center;
+  gap: 2em;
+  padding: 1.5em 0;
+  justify-content: space-between;
+  background-color: var(--cl-6--);
+  border-bottom: 4px solid var(--cl-5--);
+}
+
+nav {
+  padding-right: 7vw;
+}
+nav ul {
+  align-items: center;
+  gap: 2em;
+}
+a {
+  padding-left: 40px;
+}
+a.logo {
+  max-width: 100px;
+  max-height: 50px;
+}
+a.logo img {
+  border-radius: 20%;
+}
+
+nav a {
+  font-size: 20px;
+  color: var(--cl-1--);
+}
+nav li:nth-of-type(4) a {
+  color: var(--cl-2--);
+}
+nav a:hover {
+  color: var(--cl-2--);
+}
+
+.darkLight {
+  background: url(/Graphics/sunny-outline.svg);
+  background-size: 45px;
+  background-position: center;
+  border-radius: 20%;
+  min-width: 35px;
+  max-width: 35px;
+  height: 35px;
+   padding: 3px; 
+  cursor: pointer;
+}
+.darkLight.active {
+  background-image: url(/Graphics/moon-outline.svg);
+  background-size: 35px;
+}*/
+
+/* End Navigation Bar  */
+
+
+
+/* Navigation Bar  */
+header {
+  align-items: center;
+  gap: 2em;
+  padding: 1.5em 0;
+  justify-content: space-between;
+}
+
+nav ul {
+  align-items: center;
+  gap: 2em;
+}
+a.logo {
+  max-width: 50px;
+}
+a.logo img {
+  border-radius: 20%;
+}
+
+nav a {
+  font-size: 20px;
+  color: var(--cl-1--);
+}
+nav li:nth-of-type(4) a {
+  color: var(--cl-2--);
+}
+nav a:hover {
+  color: var(--cl-2--);
+}
+
+.darkLight {
+  background: url(/Graphics/moon-outline.svg);
+  background-size: 34px;
+  background-position: center;
+  border-radius: 20%;
+  min-width: 35px;
+  max-width: 35px;
+  height: 35px;
+  /* padding: 3px; */
+  cursor: pointer;
+}
+.darkLight.active {
+  background-image: url(/Graphics/sunlight.jpg);
+  background-size: 35px;
+}
+
+/* End Navigation Bar  */
