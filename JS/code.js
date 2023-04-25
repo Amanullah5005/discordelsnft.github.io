@@ -2,8 +2,8 @@
 
 // Navigation
 function toggleMenu(){
-  const toggleMenu = document.querySelector(".toggleMenu");
-  const navigation = document.querySelector(".navigation");
+    const toggleMenu = document.querySelector(".toggleMenu");
+    const navigation = document.querySelector(".navigation");
 toggleMenu.classList.toggle ("active");
 // let element = document.body;
 navigation.classList.toggle ("active");
@@ -13,10 +13,10 @@ navigation.classList.toggle ("active");
 
 // this is dark light shuffle Function
 function darklight(){
-  const darklight = document.querySelector(".darkLight");
-  darklight.classList.toggle("active");
-  let element = document.body;
-  element.classList.toggle("dark-theme")
+    const darklight = document.querySelector(".darkLight");
+    darklight.classList.toggle("active");
+    let element = document.body;
+    element.classList.toggle("dark-theme")
 };
 // this is dark light shuffle Function End
 
@@ -38,4 +38,7 @@ function darklight(){
 //     input.value = parseInt(input.value) - 1;
 //   }
 // Mint Add and Substract Buttons End
+
+
+
 
